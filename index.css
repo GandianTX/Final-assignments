@@ -19,6 +19,7 @@ hr{
 }
 a{
   text-decoration: none;
+  color: rgba(20,20,35,0.15);
 }
 
 
@@ -27,6 +28,22 @@ a{
   line-height: 1em;
   font-weight: 800;
 }
+.clear{
+  clear: both;
+}
+.divider{
+  height: 19px;
+}
+.divider hr{
+  margin: 7px 8px 0px 8px;
+}
+.divider-2{
+  width: 100%;
+  border-bottom: 1px solid rgba(20,20,35,.5);
+}
+
+
+
 
 
 
@@ -48,7 +65,9 @@ a{
 .header-shop{
   float: right;
   width: 300px;
-  margin: 30px 0 0 4.545454545455%;
+  height: 85px;
+  margin: 0 0 0 4.545454545455%;
+  border-top: 30px solid white;
 }
 .col-1{
   width: 135px;
@@ -75,7 +94,8 @@ a{
 
 /* 目录栏部分 */
 .header-logo{
-  margin: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-top: 30px solid white;
   overflow: hidden;
 }
 .logo{
@@ -102,12 +122,67 @@ a{
   width: 58px;
   height: 58px;
 }
-
-
-
-.divider{
-  height: 19px;
+.nav-t{
+  float: right;
+  width: 46.875%;
+  height: 70px;
+  padding-top: 5px;
+  position: relative;
+  display: block;
 }
+.nav-t a{
+  color: rgba(20,20,35,1);
+}
+.nav-t ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  margin: 0px;
+  padding: 0px;
+}
+.search-random{
+  width: 300px;
+  float: right;
+  margin: 0 0 0 4.545454545455%;
+}
+.search-h{
+  height: 63px;
+  border-bottom: 1px solid rgba(20,20,35,.15);
+}
+.random-p{
+  height: 40px;
+  padding: 20px 0px 0px 0px;
+}
+.r-a{
+  color: rgba(20,20,35,0.3);
+  display: block;
+}
+.icon{
+  width: 20px;
+  float: right;
+  position: relative;
+  bottom: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 以下为页面主体 */
 .r-body{
