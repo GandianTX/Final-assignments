@@ -1,0 +1,123 @@
+/* 以下为基础部分修改 */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+::selection{
+  background-color: rgba(252,67,73,1);
+  color: white;
+}
+hr{
+  height: 1px;
+  background-color: rgba(20,20,35,0.15);
+  border: 0px;
+  margin: 0px;
+}
+.kong-t hr{
+  margin: 30px 0px 30px 0px;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+}
+
+
+/* 以下为特殊内容修改 */
+.most{
+  line-height: 1em;
+  font-weight: 800;
+}
+
+
+
+
+
+/* 以下为页头 */
+/* .head-f{
+  width: 89.473684210526%;
+} */
+
+/* shop部分 */
+.hd-r{
+  z-index: 10;
+  width: 91.6666666666667%;
+  max-width: 1320px;
+  margin: 0px auto 0px auto;
+  position: relative;
+}
+.header-shop{
+  float: right;
+  width: 300px;
+  margin: 30px 0 0 4.545454545455%;
+}
+.col-1{
+  width: 135px;
+  height: 85px;
+  margin: 0px auto 0px auto;
+}
+.event-1{
+  margin: 0px;
+  border-bottom: 1px solid rgba(20,20,35,0.15);
+  padding: 0px 0px 18.4px 0px;
+  text-align: center;
+  color: rgba(20,20,35,0.15);
+  font-size: 0.9em;
+}
+.event-2{
+  margin: 0px;
+  padding: 18px 0px 0px 0px;
+  text-align: center;
+  color: rgba(20,20,35,0.15);
+  font-size: 0.9em;
+}
+
+
+
+/* 目录栏部分 */
+.header-logo{
+  margin: 30px 0px 0px 0px;
+  overflow: hidden;
+}
+.logo{
+  width: 350px;
+  height: 85px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+.logo-1{
+  /* width: 306.84px;
+  height: 55.53px; */
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+.coin{
+  background-image: url(./img/10063.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 58px;
+  height: 58px;
+}
+
+
+
+.divider{
+  height: 19px;
+}
+
+/* 以下为页面主体 */
+.r-body{
+  height: 2000px;
+}
+
+
+
+
+
+
+
+/* 以下为页脚 */
