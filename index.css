@@ -82,6 +82,27 @@ a{
   color: rgba(20,20,35,0.15);
   font-size: 0.9em;
 }
+.if-s{
+  border: none;
+}
+.if-s-1{
+  width: 135px;
+  height: 24px;
+}
+.if-s-2{
+  width: 394px;
+  height: 74px;
+}
+/* .if-s-3{
+  width: 16px;
+  height: 16px;
+}
+.btn{
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+} */
 .event-2{
   margin: 0px;
   padding: 18px 0px 0px 0px;
@@ -99,7 +120,7 @@ a{
   overflow: hidden;
 }
 .logo{
-  width: 350px;
+  width: 400px;
   height: 85px;
   padding: 0px;
   margin: 0px;
@@ -113,18 +134,16 @@ a{
   display: block;
 }
 .coin{
-  background-image: url(./img/10063.png);
-  background-size: cover;
   position: absolute;
   top: 0px;
-  right: 0px;
-  z-index: 1;
-  width: 58px;
-  height: 58px;
+  right: -50px;
+  z-index: 100;
+  width: 74px;
+  height: 74px;
 }
 .nav-t{
   float: right;
-  width: 46.875%;
+  width: 400px;
   height: 70px;
   padding-top: 5px;
   position: relative;
@@ -149,8 +168,27 @@ a{
   margin: 0 0 0 4.545454545455%;
 }
 .search-h{
+  width: 100%;
   height: 63px;
   border-bottom: 1px solid rgba(20,20,35,.15);
+  position: relative;
+}
+.input-s{
+  padding: 0px 0px 0px 0px;
+  width: 285px;
+  height: 63px;
+  border: 0px;
+}
+.input-s:focus{
+  border: none;
+}
+.btn{
+  position: absolute;
+  top: 22px;
+  right: 0px;
+  border: none;
+  background-color: white;
+  padding: 0px;
 }
 .random-p{
   height: 40px;
@@ -190,7 +228,7 @@ a{
 }
 .menu-a{
   box-sizing: border-box;
-  border-left: 1px solid rgba(20,20,35,.15);
+  border-right: 1px solid rgba(20,20,35,.15);
   text-align: center;
   margin: 0px auto;
 }
@@ -206,6 +244,7 @@ a{
 }
 .menu-nav-1{
   width: 14.25414364640884%;
+  border: none;
 }
 .menu-nav-2{
   width: 20.22099447513812%;
@@ -221,7 +260,6 @@ a{
 }
 .menu-nav-6{
   width: 12.37569060773481%;
-  border: none;
 }
 
 
