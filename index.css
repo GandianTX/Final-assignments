@@ -44,7 +44,17 @@ a{
 
 
 
-
+/* 以下为svg图片格式修改 */
+.event-1 svg{
+  fill: red;
+  width: 135px;
+  height: 24px;
+}
+.logo-1 svg{
+  width: 394px;
+  height: 74px;
+  fill: rgba(20,20,35,1);
+}
 
 
 
@@ -85,14 +95,10 @@ a{
 .if-s{
   border: none;
 }
-.if-s-1{
-  width: 135px;
-  height: 24px;
-}
-.if-s-2{
-  width: 394px;
-  height: 74px;
-}
+/* .if-s-1{
+
+} */
+
 /* .if-s-3{
   width: 16px;
   height: 16px;
@@ -110,7 +116,9 @@ a{
   color: rgba(20,20,35,0.15);
   font-size: 0.9em;
 }
-
+.event-2 a{
+  color: rgba(20,20,35,0.35);
+}
 
 
 /* 目录栏部分 */
@@ -178,6 +186,7 @@ a{
   width: 285px;
   height: 63px;
   border: 0px;
+  outline: none;
 }
 .input-s:focus{
   border: none;
@@ -203,6 +212,9 @@ a{
   float: right;
   position: relative;
   bottom: -2px;
+}
+.icon svg{
+  fill: rgba(20,20,35,0.2);
 }
 
 .menu-list{
@@ -241,6 +253,16 @@ a{
   line-height: 1em;
   font-weight: 800;
   padding: 22px 0px;
+}
+.menu-t img{
+  /* background-image: url(./img/10099.png);
+  background-size: 8px 5px; */
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  position: relative;
+  top: -5px;
+  left: 0px;
 }
 .menu-nav-1{
   width: 14.25414364640884%;
