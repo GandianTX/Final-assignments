@@ -46,7 +46,7 @@ a{
 
 /* 以下为svg图片格式修改 */
 .event-1 svg{
-  fill: red;
+  fill: rgba(252,67,73,1);
   width: 135px;
   height: 24px;
 }
@@ -127,6 +127,66 @@ a{
   border-top: 30px solid white;
   overflow: hidden;
 }
+.a-lg{
+  text-align: center;
+}
+.a-lo{
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  transform: scale(0.5);
+  display: inline-flex;
+  position: relative;
+  top: 4.5px;
+  /* margin: 0px 10px;
+  padding: 0px; */
+}
+.a-lo-a{
+  width: 100%;
+  height: 100%;
+}
+.a-lo-1{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 160px;
+}
+.a-lo-2{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 0px;
+}
+.a-lo-3{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 192px;
+}
+.a-lo-4{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 128px;
+}
+.a-lo-5{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 64px;
+}
+.a-lo-6{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 96px;
+}
+.a-lo-7{
+  background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
+  background-blend-mode: lighten;
+  background-position: 0px 32px;
+}
+
+
+
+
+
+
+
 .logo{
   width: 400px;
   height: 85px;
@@ -282,6 +342,44 @@ a{
 }
 .menu-nav-6{
   width: 12.37569060773481%;
+}
+
+.more-border{
+  float: right;
+  width: 300px;
+  margin: 0px 0px 0px 4.545454545455%;
+  padding: 0px;
+}
+.more-nav{
+  overflow: hidden;
+  height: 168px;
+  background-color: rgba(20,20,35,1);
+  margin: 0px;
+  padding: 0px;
+  /* display: none; */
+}
+.more-nav ul{
+  list-style-type: none;
+  padding: 8px 0.75757575757576% 20px;
+  margin: 0px;
+}
+.more-li{
+  padding: 10px 1.063829787234% 0px;
+  width: 10.372340425532%;
+  height: 25px;
+  z-index: 99;
+}
+.more-nav li{
+  display: inline;
+  float: left;
+}
+.more-li a{
+  color: white;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 0.5em;
+  font-weight: 800;
+  letter-spacing: 0.01em;
 }
 
 
