@@ -49,12 +49,18 @@ a{
   fill: rgba(252,67,73,1);
   width: 135px;
   height: 24px;
+  transition: all 250ms ease;
 }
 .logo-1 svg{
   width: 394px;
   height: 74px;
   fill: rgba(20,20,35,1);
 }
+
+
+
+
+
 
 
 
@@ -118,6 +124,7 @@ a{
 }
 .event-2 a{
   color: rgba(20,20,35,0.35);
+  transition: all 250ms ease;
 }
 
 
@@ -138,12 +145,14 @@ a{
   display: inline-flex;
   position: relative;
   top: 4.5px;
+  transition: all 250ms ease;
   /* margin: 0px 10px;
   padding: 0px; */
 }
 .a-lo-a{
   width: 100%;
   height: 100%;
+
 }
 .a-lo-1{
   background-image: url(./img/10082.png),linear-gradient(rgba(20,20,35,1),rgba(20,20,35,1));
@@ -200,6 +209,7 @@ a{
   padding: 0px;
   margin: 0px;
   display: block;
+  transition: all 250ms ease;
 }
 .coin{
   position: absolute;
@@ -219,6 +229,7 @@ a{
 }
 .nav-t a{
   color: rgba(20,20,35,1);
+  transition: all 250ms ease;
 }
 .nav-t ul{
   display: flex;
@@ -240,13 +251,15 @@ a{
   height: 63px;
   border-bottom: 1px solid rgba(20,20,35,.15);
   position: relative;
+  transition: all 250ms ease;
 }
 .input-s{
   padding: 0px 0px 0px 0px;
-  width: 285px;
+  width: 300px;
   height: 63px;
   border: 0px;
   outline: none;
+  transition: all 250ms ease;
 }
 .input-s:focus{
   border: none;
@@ -258,14 +271,17 @@ a{
   border: none;
   background-color: white;
   padding: 0px;
+  transition: all 250ms ease;
 }
 .random-p{
   height: 40px;
   padding: 20px 0px 0px 0px;
+
 }
 .r-a{
   color: rgba(20,20,35,0.3);
   display: block;
+  transition: all 250ms ease;
 }
 .icon{
   width: 20px;
@@ -303,7 +319,9 @@ a{
   border-right: 1px solid rgba(20,20,35,.15);
   text-align: center;
   margin: 0px auto;
+  transition: all 250ms ease;
 }
+
 .menu-a a{
   display: block;
 }
@@ -356,7 +374,10 @@ a{
   background-color: rgba(20,20,35,1);
   margin: 0px;
   padding: 0px;
-  /* display: none; */
+  position: relative;
+  top: -1px;
+  transition: all 250ms ease;
+  display: none;
 }
 .more-nav ul{
   list-style-type: none;
@@ -380,6 +401,7 @@ a{
   line-height: 0.5em;
   font-weight: 800;
   letter-spacing: 0.01em;
+  transition: all 250ms ease;
 }
 
 
@@ -387,7 +409,49 @@ a{
 
 
 
-
+/* 以下为css动画 */
+.menu-a:hover{
+  background-color: rgba(20,20,35,1);
+}
+.menu-a:hover .menu-t{
+  color: rgba(252,67,73,1);
+}
+.event-1:hover svg{
+  fill: rgba(20,20,35,1);
+}
+.nav-t a:hover{
+  color: rgba(252,67,73,1);
+}
+.a-lo:hover{
+  background-image: url(./img/10082.png),linear-gradient(rgba(252,67,73,1),rgba(252,67,73,1));
+}
+.logo-1:hover svg{
+  fill: rgba(252,67,73,1);
+}
+.more-li:hover a{
+  color: rgba(252,67,73,1);
+}
+.event-2:hover a{
+  color: rgba(20,20,35,1);
+}
+.r-a:hover{
+  color: rgba(252,67,73,1);
+}
+.r-a:hover svg{
+  fill: rgba(252,67,73,1);
+}
+.search-h:hover input{
+  padding: 0px 0px 0px 15px;
+  background-color: rgb(211,239,252);
+  width: 285px;
+}
+.search-h:hover .btn{
+  right: 15px;
+  background-color: rgb(211,239,252);
+}
+.menu-nav-1:hover{
+  display: block;
+}
 
 
 
