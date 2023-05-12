@@ -362,6 +362,9 @@ a{
   width: 12.37569060773481%;
 }
 
+.more-menu{
+  display: none;
+}
 .more-border{
   float: right;
   width: 300px;
@@ -377,7 +380,6 @@ a{
   position: relative;
   top: -1px;
   transition: all 250ms ease;
-  display: none;
 }
 .more-nav ul{
   list-style-type: none;
@@ -449,7 +451,7 @@ a{
   right: 15px;
   background-color: rgb(211,239,252);
 }
-.menu-nav-1:hover{
+.menu-list:has(>.menu-nav>.nav>.menu-nav-1:hover)+.more-menu{
   display: block;
 }
 
