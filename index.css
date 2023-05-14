@@ -358,7 +358,7 @@ a{
   justify-content: space-between;
   text-align: center;
 }
-.nav li a{
+.nav li .menu-t{
   font-weight: 800;
   line-height: 1em;
   font-size: 1.2em;
@@ -457,14 +457,14 @@ a{
 /* 以下为导航栏部分 */
 .daohang{
   position: fixed;
-  background-color: red;
+  background-color: white;
   margin: 0px auto;
   width: 91.6666666666667%;
   max-width: 1320px;
   height: 74px;
   top: 0px;
   z-index: 1000;
-  border-bottom: 1px solid rgba(20,20,35,1);
+  border-bottom: 1px solid rgba(20,20,35,0.5);
 }
 .search-h2{
   width: 300px;
@@ -473,6 +473,7 @@ a{
   position: relative;
   margin: 19px 0px 6px 4.545454545455%;
   transition: all 250ms ease;
+  z-index: 10;
 }
 .input-s2{
   padding: 0px 0px 0px 15px;
@@ -493,34 +494,51 @@ a{
 }
 .menu-list2{
   height: 74px;
+  position: relative;
+  left: 0.6px;
+  z-index: 5;
+}
+.menu-btn{
+  width: 16px;
+  padding: 23px 13px 0px 13.5px;
+  height: 74px;
 }
 .menu-a-2{
-  height: 74px;
+  height: 50px;
   width: auto;
-  padding: 27px 0px 0px 0px;
+  padding: 24px 0px 0px 0px;
+  transition: all 250ms ease;
   /* border-right: 1px solid rgba(20,20,35,0.15); */
+}
+.menu-nav-7 a{
+  padding-right: 11.2px;
 }
 .menu-t2{
   color: rgba(20,20,35,1);
   font-size: 1em;
   line-height: 1em;
   font-weight: 800;
-  padding: 5px 10px;
-  border-right: 1px solid rgba(20,20,35,.15);
+  letter-spacing: 0.01em;
+  padding: 7px 15px;
+  border-right: 0.5px solid rgba(20,20,35,.15);
 }
 .menu-t2 img{
   display: inline-block;
   width: 8px;
-  height: 5px;
+  height: 4.8px;
   position: relative;
-  top: -5px;
-  left: 0px;
+  top: -5.5px;
+  left: 2px;
 }
 .dh-lg{
   width: 250px;
+  position: absolute;
+  top: 17px;
+  left: 0.2px;
+  z-index: 8;
 }
 .dh-lg svg{
-  width: 175px;
+  width: 170.8px;
   fill: rgba(20,20,35,1);
 }
 
@@ -533,8 +551,17 @@ a{
 .menu-a:hover .menu-t{
   color: rgba(252,67,73,1);
 }
+.menu-a-2:hover{
+  background-color: rgba(20,20,35,1);
+}
+.menu-a-2:hover .menu-t2{
+  color: rgba(252,67,73,1);
+}
 .event-1:hover svg{
   fill: rgba(20,20,35,1);
+}
+.dh-lg:hover svg{
+  fill: rgba(252,67,73,1);
 }
 .nav-t a:hover{
   color: rgba(252,67,73,1);
