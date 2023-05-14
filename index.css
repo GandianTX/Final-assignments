@@ -272,6 +272,7 @@ a{
 }
 .nav-t a{
   color: rgba(20,20,35,1);
+  font-weight: 300;
   transition: all 250ms ease;
 }
 .nav-t ul{
@@ -381,8 +382,6 @@ a{
   padding: 22px 0px;
 }
 .menu-t img{
-  /* background-image: url(./img/10099.png);
-  background-size: 8px 5px; */
   display: inline-block;
   width: 8px;
   height: 5px;
@@ -455,7 +454,75 @@ a{
 }
 
 
-
+/* 以下为导航栏部分 */
+.daohang{
+  position: fixed;
+  background-color: red;
+  margin: 0px auto;
+  width: 91.6666666666667%;
+  max-width: 1320px;
+  height: 74px;
+  top: 0px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(20,20,35,1);
+}
+.search-h2{
+  width: 300px;
+  height: 33px;
+  float: right;
+  position: relative;
+  margin: 19px 0px 6px 4.545454545455%;
+  transition: all 250ms ease;
+}
+.input-s2{
+  padding: 0px 0px 0px 15px;
+  width: 285px;
+  height: 33px;
+  border: 0px;
+  outline: none;
+  transition: all 250ms ease;
+}
+.btn2{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  border: none;
+  background-color: white;
+  padding: 0px;
+  transition: all 250ms ease;
+}
+.menu-list2{
+  height: 74px;
+}
+.menu-a-2{
+  height: 74px;
+  width: auto;
+  padding: 27px 0px 0px 0px;
+  /* border-right: 1px solid rgba(20,20,35,0.15); */
+}
+.menu-t2{
+  color: rgba(20,20,35,1);
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-right: 1px solid rgba(20,20,35,.15);
+}
+.menu-t2 img{
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  position: relative;
+  top: -5px;
+  left: 0px;
+}
+.dh-lg{
+  width: 250px;
+}
+.dh-lg svg{
+  width: 175px;
+  fill: rgba(20,20,35,1);
+}
 
 
 
@@ -495,15 +562,26 @@ a{
   background-color: rgb(211,239,252);
   width: 285px;
 }
+.search-h2:hover input{
+  background-color: rgb(211,239,252);
+}
 .search-h:hover .btn{
+  right: 15px;
+  background-color: rgb(211,239,252);
+}
+.search-h2:hover .btn2{
   right: 15px;
   background-color: rgb(211,239,252);
 }
 .menu-list:has(>.menu-nav>.nav>.menu-nav-1:hover)+.more-menu{
   display: block;
+  position: absolute;
+  margin-right: 360px;
 }
 .more-menu:hover{
   display: block;
+  position: absolute;
+  margin-right: 360px;
 }
 .hd-r:has(.more-menu:hover) .menu-list>.menu-nav>.nav>.menu-nav-1{
   background-color: rgba(20,20,35,1);
