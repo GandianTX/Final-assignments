@@ -578,6 +578,32 @@ a{
   width: 170.8px;
   fill: rgba(20,20,35,1);
 }
+.dh-more{
+  width: 960px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: none;
+}
+.more-nav-2{
+  width: 100%;
+  overflow: hidden;
+  height: 168px;
+  background-color: rgba(20,20,35,1);
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: -1px;
+  transition: all 250ms ease;
+}
+.more-nav-2 ul{
+  list-style-type: none;
+  padding: 8px 0.75757575757576% 20px;
+  margin: 0px;
+}
+.more-nav-2 li{
+  display: inline;
+  float: left;
+}
 
 
 
@@ -655,6 +681,18 @@ a{
 }
 .menu-btn:hover{
   background-color: rgb(220, 220, 222);
+}
+.daohang:has(.menu-list2>.menu-nav>.nav>.menu-nav-7:hover)>.dh-more{
+  display: block;
+}
+.dh-more:hover{
+  display: block;
+}
+.daohang:has(.dh-more:hover)>.menu-list2>.menu-nav>.nav>.menu-nav-7{
+  background-color: rgba(20,20,35,1);
+}
+.daohang:has(.dh-more:hover)>.menu-list2>.menu-nav>.nav>.menu-nav-7>.menu-t2{
+  color: rgba(252,67,73,1);
 }
 
 
