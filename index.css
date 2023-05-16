@@ -7,6 +7,9 @@ body{
   background-color: rgba(252,67,73,1);
   color: white;
 }
+div{
+  white-space: nowrap;
+}
 /* @font-face{
   font-family: "Clear Sans";
   src: url(./font/ClearSans-Regular.eot);
@@ -116,7 +119,8 @@ a{
 /* shop部分 */
 .hd-r{
   z-index: 10;
-  width: 91.6666666666667%;
+  /* width: 91.6666666666667%; */
+  width: 1320px;
   max-width: 1320px;
   margin: 0px auto 0px auto;
   position: relative;
@@ -489,7 +493,8 @@ a{
   position: fixed;
   background-color: white;
   margin: 0px auto;
-  width: 91.6666666666667%;
+  /* width: 91.6666666666667%; */
+  width: 1320px;
   max-width: 1320px;
   height: 74px;
   top: 0px;
