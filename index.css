@@ -302,6 +302,7 @@ a{
   border-bottom: 1px solid rgba(20,20,35,.15);
   position: relative;
   transition: all 250ms ease;
+  z-index: 10;
 }
 .input-s{
   padding: 0px 0px 0px 0px;
@@ -310,6 +311,16 @@ a{
   border: 0px;
   outline: none;
   transition: all 250ms ease;
+  z-index: 9;
+}
+.input-s::placeholder{
+  font-size: 1.4em;
+  color: rgba(20,20,35,1);
+  font-weight: 300;
+  position: relative;
+  top: 2px;
+  letter-spacing: 0.016em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
 }
 .input-s:focus{
   border: none;
@@ -322,6 +333,7 @@ a{
   background-color: white;
   padding: 0px;
   transition: all 250ms ease;
+  font-size: 1.2em;
 }
 .random-p{
   height: 40px;
@@ -330,8 +342,12 @@ a{
 }
 .r-a{
   color: rgba(20,20,35,0.3);
+  font-size: 1.2em;
   display: block;
+  font-weight: 300;
   transition: all 250ms ease;
+  position: relative;
+  top: -2px;
 }
 .icon{
   width: 20px;
@@ -497,6 +513,16 @@ a{
   outline: none;
   transition: all 250ms ease;
 }
+.input-s2::placeholder{
+  color: rgba(20,20,35,1);
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  position: relative;
+  top: 1px;
+  
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+}
 .btn2{
   position: absolute;
   top: 10px;
@@ -515,7 +541,7 @@ a{
 }
 .menu-btn{
   width: 16px;
-  padding: 23px 13px 0px 14px;
+  padding: 23px 15px 0px 15px;
   height: 52px;
   transition: all 250ms ease;
 }
@@ -556,7 +582,7 @@ a{
   line-height: 1em;
   font-weight: 800;
   letter-spacing: 0.01em;
-  padding: 7px 15px;
+  padding: 7px 14px 7px 15px;
   border-right: 0.5px solid rgba(20,20,35,.15);
 }
 .menu-t2 img{
@@ -604,7 +630,9 @@ a{
   display: inline;
   float: left;
 }
-
+.tebie{
+  border-right: 0.5px solid rgba(20,20,35,0.08);
+}
 
 
 /* 以下为css动画 */
@@ -662,6 +690,32 @@ a{
 .search-h2:hover .btn2{
   right: 15px;
   background-color: rgb(211,239,252);
+}
+.input-s:focus{
+  padding: 0px 0px 0px 15px;
+  width: 285px;
+  background-color: rgb(231, 231, 233);
+  z-index: 11;
+}
+.input-s:focus::placeholder{
+  color: rgba(20,20,35,0.3);
+}
+.input-s2:focus+.btn2{
+  right: 15px;
+  background-color: rgb(231, 231, 233);
+}
+.input-s2:focus{
+  padding: 0px 0px 0px 15px;
+  width: 285px;
+  background-color: rgb(231, 231, 233);
+  z-index: 11;
+}
+.input-s2:focus::placeholder{
+  color: rgba(20,20,35,0.3);
+}
+.input-s2:focus+.btn{
+  right: 15px;
+  background-color: rgb(231, 231, 233);
 }
 .menu-list:has(>.menu-nav>.nav>.menu-nav-1:hover)+.more-menu{
   display: block;
