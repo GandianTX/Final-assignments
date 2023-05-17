@@ -121,6 +121,7 @@ a{
   max-width: 1320px;
   margin: 0px auto 0px auto;
   position: relative;
+  height: 260px;
 }
 .header-shop{
   float: right;
@@ -528,7 +529,6 @@ a{
   font-weight: 300;
   position: relative;
   top: 1px;
-  
   font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
 }
 .btn2{
@@ -770,8 +770,50 @@ a{
 /* 以下为页面主体 */
 .r-body{
   height: 2000px;
+  width: 1320px;
+  margin: 0 auto 0 auto;
+  /* background-color: blue; */
 }
-
+.side{
+  float: right;
+  width: 300px;
+  margin: 0 0 0 4.545454545455%;
+}
+.side-1{
+  width: 300px;
+  /* margin: 0 0 0 4.54545454545%; */
+  color: rgba(20,20,35,0.35);
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  font-weight: 300;
+  position: relative;
+  top: -6px;
+  left: 5.5px;
+}
+.side-1 a{
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(252,67,73,.25);
+  color: rgb(252,67,73,.75);
+}
+.side-2{
+  width: 240px;
+  margin: 60px 0 0 0;
+  padding: 30px;
+  background-image: url(./img/10067.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  position: relative;
+  top: -7px;
+  left: 5.5px;
+}
+.side-title{
+  font-size: 2em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-weight: 800;
+  line-height: 1.125em;
+  color: rgba(20,20,35,1);
+  margin: 0 0 30px;
+}
 
 
 
