@@ -7,9 +7,6 @@ body{
   background-color: rgba(252,67,73,1);
   color: white;
 }
-div{
-  white-space: nowrap;
-}
 /* @font-face{
   font-family: "Clear Sans";
   src: url(./font/ClearSans-Regular.eot);
@@ -718,7 +715,7 @@ a{
 .input-s2:focus::placeholder{
   color: rgba(20,20,35,0.3);
 }
-.input-s2:focus+.btn{
+.input-s:focus+.btn{
   right: 15px;
   background-color: rgb(231, 231, 233);
 }
