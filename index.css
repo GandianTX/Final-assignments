@@ -483,6 +483,12 @@ a{
   letter-spacing: 0.01em;
   transition: all 250ms ease;
 }
+.more-li{
+  text-transform: capitalize;
+}
+.more-li-t{
+  line-height: 1em;
+}
 
 
 /* 以下为导航栏部分 */
