@@ -50,15 +50,27 @@ body{
 }
 @font-face{
   font-family: "Sentinel A";
-  src: url(./font/Sentinel_A500n);
-  font-weight: 500;
+  src: url(./font/Sentinel_A400n);
+  font-weight: 400;
   font-style: normal;
 }
 @font-face{
   font-family: "Sentinel B";
-  src: url(./font/Sentinel_B500n);
-  font-weight: 500;
+  src: url(./font/Sentinel_B400n);
+  font-weight: 400;
   font-style: normal;
+}
+@font-face{
+  font-family: "Sentinel A";
+  src: url(./font/Sentinel_A400i);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Sentinel B";
+  src: url(./font/Sentinel_B400i);
+  font-weight: 400;
+  font-style: italic;
 }
 @font-face{
   font-family: "Sentinel SSm A";
@@ -672,6 +684,150 @@ a{
 }
 
 
+
+
+
+
+
+
+
+
+/* 以下为页面主体 */
+.r-body{
+  height: 2000px;
+  width: 1320px;
+  margin: 0 auto 0 auto;
+  /* background-color: blue; */
+}
+.side{
+  float: right;
+  width: 300px;
+  margin: 0 0 0 4.545454545455%;
+}
+.side-1{
+  width: 300px;
+  /* margin: 0 0 0 4.54545454545%; */
+  color: rgba(20,20,35,0.35);
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  font-weight: 300;
+  position: relative;
+  top: -6px;
+  left: 5.5px;
+}
+.side-1 a{
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(252,67,73,.25);
+  color: rgb(252,67,73,.75);
+}
+.side-2{
+  width: 240px;
+  margin: 60px 0 0 0;
+  padding: 30px;
+  background-image: url(./img/10067.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  position: relative;
+  top: -7px;
+  left: 5.5px;
+}
+.side-title{
+  font-size: 2em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-weight: 800;
+  line-height: 1.125em;
+  color: rgba(20,20,35,1);
+  margin: 0 0 16px;
+}
+.little-t{
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  line-height: 2em;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(20,20,35,.35);
+  margin-bottom: 30px;
+}
+.little-t a{
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
+  color: rgba(252,67,73,1);
+}
+.img-m1{
+  width: 240px;
+  height: 180px;
+  margin: 0px 0px 5px 0px;
+}
+.p-m1{
+  margin: 0px;
+  padding: 0px;
+}
+.p-m1 a{
+  color: rgba(20,20,35,1);
+  letter-spacing: 0.01em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-weight: 800;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.35em;
+}
+.img-m{
+  width: 240px;
+  height: 180px;
+  margin: 30px 0px 10px 0px;
+}
+.p-m{
+  margin: 0px;
+  padding: 0px;
+}
+.p-m a{
+  color: rgba(20,20,35,1);
+  letter-spacing: 0.01em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-weight: 800;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.35em;
+}
+.side-sign{
+  width: 150px;
+  margin: 20px auto 0px;
+  height: 122px;
+  border: 1px solid rgba(252,67,73,1);
+  border-radius: 75px;
+  text-align: center;
+  padding: 28px 0 0 0;
+  transition: all 250ms ease;
+}
+.sign-a{
+  font-family: "Sentinel A", "Sentinel B", Serif, Georgia;
+  color: rgba(252,67,73,1);
+  line-height: 1.25em;
+  font-size: 1.25em;
+  font-style: italic;
+  transition: all 250ms ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 以下为页脚 */
+
+
+
+
+
+
+
+
+
 /* 以下为css动画 */
 .menu-a:hover{
   background-color: rgba(20,20,35,1);
@@ -788,106 +944,9 @@ a{
 .hover-red:hover{
   color: rgba(252,67,73,1);
 }
-
-
-
-
-
-
-
-
-
-
-
-/* 以下为页面主体 */
-.r-body{
-  height: 2000px;
-  width: 1320px;
-  margin: 0 auto 0 auto;
-  /* background-color: blue; */
+.side-sign:hover{
+  background-color: rgba(252,67,73,1);
 }
-.side{
-  float: right;
-  width: 300px;
-  margin: 0 0 0 4.545454545455%;
+.side-sign:hover .sign-a{
+  color: white;
 }
-.side-1{
-  width: 300px;
-  /* margin: 0 0 0 4.54545454545%; */
-  color: rgba(20,20,35,0.35);
-  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
-  font-style: normal;
-  font-weight: 300;
-  position: relative;
-  top: -6px;
-  left: 5.5px;
-}
-.side-1 a{
-  padding-bottom: 3px;
-  border-bottom: 1px solid rgb(252,67,73,.25);
-  color: rgb(252,67,73,.75);
-}
-.side-2{
-  width: 240px;
-  margin: 60px 0 0 0;
-  padding: 30px;
-  background-image: url(./img/10067.png);
-  background-repeat: repeat-y;
-  background-size: 100%;
-  position: relative;
-  top: -7px;
-  left: 5.5px;
-}
-.side-title{
-  font-size: 2em;
-  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
-  font-weight: 800;
-  line-height: 1.125em;
-  color: rgba(20,20,35,1);
-  margin: 0 0 16px;
-}
-.little-t{
-  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
-  letter-spacing: .2em;
-  text-transform: uppercase;
-  font-size: 0.6em;
-  line-height: 2em;
-  padding-bottom: 22px;
-  border-bottom: 1px solid rgba(20,20,35,.35);
-  margin-bottom: 30px;
-}
-.little-t a{
-  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
-  color: rgba(252,67,73,1);
-}
-.img-m1{
-  width: 240px;
-  height: 180px;
-  margin: 0px 0px 5px 0px;
-}
-.p-m1{
-  margin: 0px;
-  padding: 0px;
-}
-.p-m1 a{
-  color: rgba(20,20,35,1);
-  letter-spacing: 0.01em;
-  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
-  font-weight: 800;
-  padding: 0px;
-  margin: 0px;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* 以下为页脚 */
