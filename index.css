@@ -720,10 +720,11 @@ a{
   top: -6px;
   left: 5.5px;
 }
-.side-1 a{
+.side-1-a{
   padding-bottom: 3px;
   border-bottom: 1px solid rgb(252,67,73,.25);
   color: rgb(252,67,73,.75);
+  transition: all 250ms ease;
 }
 .side-2{
   width: 240px;
@@ -757,6 +758,7 @@ a{
 .little-t a{
   font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
   color: rgba(252,67,73,1);
+  transition: all 250ms ease;
 }
 .img-m1{
   width: 240px;
@@ -780,7 +782,11 @@ a{
   width: 240px;
   height: 180px;
   margin: 30px 0px 10px 0px;
+  transition: all 250ms ease;
 }
+/* .img-m:hover{
+  filter: grayscale(80%)
+} */
 .p-m{
   margin: 0px;
   padding: 0px;
@@ -891,7 +897,7 @@ a{
   transition: color 0.2s linear;
 }
 
-.divider {
+.divider-c {
   background-color: rgba(80,191,242,.5); /* 设置分隔符的颜色 */
   width: 1px;
   height: 17px;
@@ -1089,6 +1095,9 @@ a{
 .banquan a {
   color: rgba(20,20,35,.35);
   font-weight: 900;
+  border-bottom: 1px solid rgba(20,20,35,.1);
+  padding: 0px 0px 3px 0px;
+  transition: all 250ms ease;
 }
 
 
@@ -1180,6 +1189,13 @@ a{
   right: 15px;
   background-color: rgb(231, 231, 233);
 }
+.side-1-a:hover{
+  color: rgba(20,20,35,.35);
+  border-bottom: 1px solid rgba(20,20,35,0.15);
+}
+.little-t a:hover{
+  color: white;
+}
 .menu-list:has(>.menu-nav>.nav>.menu-nav-1:hover)+.more-menu{
   display: block;
   position: absolute;
@@ -1219,4 +1235,7 @@ a{
 }
 .side-sign:hover .sign-a{
   color: white;
+}
+.banquan a:hover{
+  color: rgba(80,191,242,1);
 }
