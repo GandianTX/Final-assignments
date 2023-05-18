@@ -48,6 +48,32 @@ body{
   font-weight: 800;
   font-style: normal;
 }
+@font-face{
+  font-family: "Sentinel A";
+  src: url(./font/Sentinel_A500n);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Sentinel B";
+  src: url(./font/Sentinel_B500n);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Sentinel SSm A";
+  src: url(./font/Sentinel_SSm_A500n);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Sentinel SSm B";
+  src: url(./font/Sentinel_SSm_B500n);
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 hr{
   height: 1px;
   background-color: rgba(20,20,35,0.15);
@@ -63,6 +89,9 @@ a{
   color: rgba(20,20,35,0.15);
   font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
   
+}
+.hover-red{
+  transition: all 250ms ease;
 }
 
 
@@ -756,6 +785,9 @@ a{
 .daohang:has(.dh-more:hover)>.menu-list2>.menu-nav>.nav>.menu-nav-7>.menu-t2{
   color: rgba(252,67,73,1);
 }
+.hover-red:hover{
+  color: rgba(252,67,73,1);
+}
 
 
 
@@ -812,8 +844,46 @@ a{
   font-weight: 800;
   line-height: 1.125em;
   color: rgba(20,20,35,1);
-  margin: 0 0 30px;
+  margin: 0 0 16px;
 }
+.little-t{
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  line-height: 2em;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(20,20,35,.35);
+  margin-bottom: 30px;
+}
+.little-t a{
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Serif, Georgia;
+  color: rgba(252,67,73,1);
+}
+.img-m1{
+  width: 240px;
+  height: 180px;
+  margin: 0px 0px 5px 0px;
+}
+.p-m1{
+  margin: 0px;
+  padding: 0px;
+}
+.p-m1 a{
+  color: rgba(20,20,35,1);
+  letter-spacing: 0.01em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-weight: 800;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+
+
+
+
+
 
 
 
