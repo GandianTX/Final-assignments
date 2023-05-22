@@ -1230,6 +1230,9 @@ a{
 .hover-red:hover{
   color: rgba(252,67,73,1);
 }
+.hover-black:hover{
+  color: black;
+}
 .side-sign:hover{
   background-color: rgba(252,67,73,1);
 }
