@@ -539,7 +539,11 @@ a{
 
 
 /* 以下为导航栏部分 */
+.daohang-all{
+  
+}
 .daohang{
+  width: 100%;
   position: fixed;
   background-color: white;
   margin: 0px auto;
