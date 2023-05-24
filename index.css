@@ -760,10 +760,33 @@ a{
   color: rgba(252,67,73,1);
   transition: all 250ms ease;
 }
+.side-mpart{
+  position: relative;
+}
 .img-m1{
   width: 240px;
   height: 180px;
   margin: 0px 0px 5px 0px;
+}
+.cover-s{
+  position: absolute;
+  width: 240px;
+  height: 180px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0,0.3);
+  display: none;
+  transition: all 250ms ease;
+}
+.cover{
+  position: absolute;
+  width: 240px;
+  height: 180px;
+  top: 30px;
+  left: 0px;
+  background-color: rgba(0, 0, 0,0.3);
+  display: none;
+  transition: all 250ms ease;
 }
 .p-m1{
   margin: 0px;
@@ -1252,4 +1275,16 @@ a{
 }
 .banquan a:hover{
   color: rgba(80,191,242,1);
+}
+.side-mpart img:hover+.cover{
+  display: block;
+}
+.cover:hover{
+  display: block;
+}
+.side-mpart img:hover+.cover-s{
+  display: block;
+}
+.cover-s:hover{
+  display: block;
 }
