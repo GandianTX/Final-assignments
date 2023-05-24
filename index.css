@@ -105,7 +105,6 @@ a{
   text-decoration: none;
   color: rgba(20,20,35,0.15);
   font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
-  
 }
 .hover-red{
   transition: all 250ms ease;
@@ -699,7 +698,7 @@ a{
 
 /* 以下为页面主体 */
 .r-body{
-  height: 3000px;
+  /* height: 3000px; */
   width: 1320px;
   margin: 0 auto 0 auto;
   /* background-color: blue; */
@@ -841,7 +840,278 @@ a{
   font-style: italic;
   transition: all 250ms ease;
 }
+/* 以下为左边栏 */
+.part-b{
+  width: 950px;
+  height: 28000px;
+  margin:0;
+  position: relative;
+  top: 100px;
+  overflow: hidden;
+}
 
+.youhua-1 .guiyi-2 .heian-3{
+  width:970px;
+  margin: 0 0 60px;
+  overflow: visible;
+}
+
+.photo{
+  width: 970px;
+  margin:0px auto;
+}
+
+.part-b a{
+  transition: all 250ms ease;
+  text-decoration: none;
+  border: 0;
+}
+.hover-pink{
+  color: rgb(44, 76, 241);
+  transition: all 250ms ease;
+}
+.hover-pink:hover{
+  color: rgb(255, 29, 255);
+}
+
+.subtitle{
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  font-size:1em;
+	line-height:1em;
+	font-weight:bold;
+	margin: 0 0 18px;
+	float:none;
+	display:block;
+  color:#898991;
+}
+
+.subtitle a{
+  font-size: 1.2em;
+  line-height: 1em;
+  font-weight: 800;
+}
+
+.part-b h2{
+  font-size: 2.25em;
+  line-height: 1.125em;
+  font-weight: 800;
+}
+
+.part-b h2 a{
+  color: rgba(20,20,35,1);
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+.post_details .post_h5{
+  width:auto;
+  border-top: none;
+  margin: 12px 0 25px;
+  padding: 10px 0 0 0;
+  position: relative;
+  color: rgba(20,20,35,1);
+}
+
+.date{
+  float: left;
+  margin: 4px 0 0 0;
+  font-size: 10px;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: "Clear Sans";
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: rgba(20,20,35,1);
+}
+
+.date h3{
+  font-size: 10px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.author{
+  float: right;
+  display: block;
+  margin: 4px 0 0 0;
+  font-size: 10px;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: "Clear Sans";
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: rgba(20,20,35,.5);
+}
+
+.clear{
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+.photo1{
+  max-width: none;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  display: block;
+}
+
+.beizhu{
+  font-size: .85em;
+  font-weight: 400;
+  color: rgba(20, 20, 35, .5);
+  padding: 7px 0 0;
+  line-height: 1.5em;
+  letter-spacing: .01em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  display: block;
+  border: 0;
+}
+
+.part-b p{
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 0 0 1em 0;
+  font-family: "Sentinel A", "Sentinel B", Serif, Georgia;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  border: 0;
+}
+
+.part-b h5{
+  padding: 0 0 6px;
+  color: rgba(20,20,35,.35);
+  border-bottom: 1px solid rgba(20,20,35,.15);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 1em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+}
+
+.share_story{
+  border-bottom: 1px solid rgba(20,20,35,.15);
+}
+
+.share{
+  margin: 13px 0 70px;
+  padding: 0 0 30px 0;
+  text-align: center;
+  line-height: 10px;
+  border: 0;
+  font: inherit;
+  display: block;
+  border-bottom: 1px solid rgba(20,20,35,.15);
+}
+
+.f .tweet{
+  position: relative;
+  margin-top: 15px;
+  margin: 0 15px 0 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: center;
+}
+
+.tweet{
+  margin-top: 5px;
+  margin-right: 35px;
+}
+
+.pin{
+  left: 0px;
+  width: auto;
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  margin-right: 180px;
+}
+
+.clear11{
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+.Email{
+  clear: both;
+  margin: 15px 0 0 0;
+  background-image: url(img/10066.png);
+  background-repeat: no-repeat;
+  background-size: 60px 20px;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  position: relative;
+  top: -7px;
+  margin-left: -110px;
+}
+
+.part-b blockquote{
+  quotes: none;
+  border-left: 1px solid rgba(20,20,35,.15);
+}
+
+.part-b blockquote p{
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+  padding: 0 0 0 3%;
+  letter-spacing: .01em;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+  font-style: normal;
+  font-weight: 300;
+  border: 0;
+  color: rgba(20,20,35,.5);
+}
+  
+.part-b h3 a{
+  color: rgba(20,20,35,.5);
+  border-bottom: 1px solid rgba(20,20,35,.3);
+  padding: 0 0 3px 0;
+  margin: 0 10px 0 0;
+}
+
+.part-b p a{
+  color: rgba(252,67,73,1);
+  border-bottom: 1px solid rgba(252,67,73,.25);
+  padding: 0 0 3px 0;
+  transition: all 250ms ease;
+  text-decoration: none;
+}
+
+.Email a{
+  opacity: 0.00001;
+}
 
 
 
