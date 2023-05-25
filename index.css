@@ -841,6 +841,298 @@ a{
   transition: all 250ms ease;
 }
 /* 以下为左边栏 */
+.part-a{
+  width: 950px;
+  /* margin: 0 0 0 125px; */
+  position: relative;
+  top: 100px;
+  overflow: hidden;
+}
+
+.posts{
+width:                          970px;
+/* margin:                         0px 90.4px; */
+}
+
+.category{ 
+font-size:                      1em;
+line-height:                    1em;
+font-weight:                    bold;
+margin:                         0 0 18px;
+float:                          none;
+display:                        block;
+text-transform:                 none;
+letter-spacing:                 0;
+font-size:                      1.2em; 
+line-height:                    1em; 
+font-weight:                    970;
+font-family:                    "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+font-style:                     normal;
+float:                          none;
+display:                        block;
+margin:                         20px 0 0 -4px;
+display:                        inline-block;
+font-size:                      1em;
+line-height:                    1em;
+font-weight:                    bold;
+margin:                         0 0 18px;
+float:                          none;
+display:                        block;
+color:                          rgba(20,20,35,1);  
+border-bottom: 1px solid rgba(20, 20, 35, .3);
+}
+
+
+.clear{
+clear:                          both;
+margin:                         0;
+padding:                        0;
+border:                         0;
+font:                           inherit;
+}
+    
+h2 a{
+color:                          black;
+margin:                         0;
+padding:                        0;
+border:                         0;
+font:                           inherit;
+text-decoration:                none;
+}
+
+.kong a{
+text-decoration:                none;
+}
+
+
+
+.post_details{
+margin:                         0 0 25px;
+padding:                        20px 0 0 0;
+position:                       relative;
+}
+
+
+.date{
+float:                          left;
+display:                        block;
+margin:                         4px 0 0 0;
+font-size:                      10px;
+line-height:                    1em;
+font-weight:                    700;
+font-family:                    "Clear Sans";
+font-style:                     normal;
+text-transform:                 uppercase;
+letter-spacing:                 .1em;
+padding:                        0;
+border:                         0;
+font:                           inherit;
+}
+
+
+.author{
+float: right;
+display: block;
+margin: 4px 0 0 0;
+font-size: 10px;
+line-height: 1em;
+font-weight: 700;
+font-family: "Clear Sans";
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+p{
+font-size: 1em;
+line-height: 1.5em;
+margin: 0 0 1em 0;
+font-family: "Sentinel A","Sentinel B","Serif",Georgia;
+font-style: normal;
+font-weight: 400;
+padding: 0;
+/* border:0; */
+}
+
+.span-color{
+  color: #202035;
+}
+
+.blockquote-kuang{
+  margin-left: 1px rgba(252, 67, 73, 1) solid;
+}
+
+.a{
+width: 970px;    
+}
+
+.wp-caption-text{
+margin:   0 -10px 15px;
+font-size: .85em;
+font-weight: 400;
+color:rgba(20, 20, 35, .5);
+padding:  7px 0 0;
+line-height: 1.5em;
+letter-spacing: .01em;
+font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
+font-style: normal;
+border: 0;
+}
+
+.share_story{
+padding:  0  0 6px;
+color: rgba(20, 20, 35, .35);
+border-bottom: 1px solid rgba(20, 20, 35, .15);
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50%,0%);
+font-size: 1em;
+font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
+font-style: normal;
+font-weight: 300;
+}
+
+.share{
+margin:  50px 0 0;
+padding:  0 0 30px 0;
+text-align: center;
+border-bottom:  1px solid rgba(20, 20, 35, .15);
+line-height: 10px;
+border: 0;
+font: inherit;
+}
+
+.move_that_f{
+position: relative;
+top: 13px;
+/* margin:  0 15px 0 0; */
+margin-right: 35px;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.fb_iframe_widget{
+display: inline-block;
+position: relative;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.move_that_tweet{
+top: 6px;  
+margin:  0 35px 0 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.move_that_pin{
+top: -7px;
+left: 0px;
+width: auto;
+position: relative;
+display: inline-block;
+margin:  0 15px 0 0;
+padding: 0;
+border: 0;
+font: inherit;
+margin-right: 70px;
+}
+
+.share_break{
+display: block;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.clear{
+clear: both;
+}
+
+.posts a{
+transition: all 250ms ease;
+text-decoration: none;
+border: 0;
+font: inherit;
+}
+
+h3 a{
+color: rgba(20, 20, 35, .5);
+border-bottom: 1px solid rgba(20, 20, 35, .3);
+padding: 0 0 3px 0;
+margin: 0 10px 0 0;
+}
+.hover-black:hover{
+color: black;
+}
+
+.hover-red{
+color: rgba(252, 67, 73, 1);
+margin: 0;
+padding:0 ;
+border: 0;
+font: inherit;
+}
+
+a:after{
+color: rgba(252, 67, 73, 1);
+border-bottom: 1px solid rgba(252, 67, 73, .25);
+padding: 0 0 3px 0;
+transition: all 250ms ease;
+margin: 0;
+border: 0;
+font:inherit
+}
+
+.hover-pink:hover{
+color: magenta;
+}
+
+.aaa{
+width: 60px;
+height: 20px;
+margin: 0;
+background-image: url(../fangzhan/img/10066.png);
+background-repeat: no-repeat;
+background-size: 60px 20px;
+display: inline-block;
+padding: 0;
+border: 0;
+font: inherit;
+transition: all 250ms ease;
+text-decoration: none;
+}
+
+.h3 a:last-child{
+margin: 0;
+}
+.h3 .category a:after{
+color: rgba(20, 20, 35, .5);
+border-bottom: 1px solid rgba(20, 20, 35, .3);
+padding: 0 0 3px 0;
+margin: 0 10px 0 0;
+border: 0;
+font: inherit;
+}
+
+.post_module h3 a:last-child{
+margin: 0;
+color: rgba(20, 20, 35, .35);
+border-bottom: 1px solid rgba(20, 20, 35, .1);
+padding: 0 0 3px 0;
+}
+
+/*分隔线*/
+
 .part-b{
   width: 950px;
   height: 28000px;
