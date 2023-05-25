@@ -106,9 +106,7 @@ a{
   color: rgba(20,20,35,0.15);
   font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
 }
-.hover-red{
-  transition: all 250ms ease;
-}
+
 
 
 /* 以下为特殊内容修改 */
@@ -850,34 +848,22 @@ a{
 }
 
 .posts{
-width:                          970px;
+width:                          950px;
 /* margin:                         0px 90.4px; */
 }
-
+.size-full{
+  width: 950px;
+}
 .category{ 
-font-size:                      1em;
-line-height:                    1em;
-font-weight:                    bold;
-margin:                         0 0 18px;
 float:                          none;
-display:                        block;
 text-transform:                 none;
 letter-spacing:                 0;
 font-size:                      1.2em; 
 line-height:                    1em; 
-font-weight:                    970;
 font-family:                    "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
 font-style:                     normal;
-float:                          none;
-display:                        block;
-margin:                         20px 0 0 -4px;
-display:                        inline-block;
-font-size:                      1em;
-line-height:                    1em;
-font-weight:                    bold;
-margin:                         0 0 18px;
-float:                          none;
-display:                        block;
+margin:                         20px 0 0 0;
+display:                        inline-block; 
 color:                          rgba(20,20,35,1);  
 border-bottom: 1px solid rgba(20, 20, 35, .3);
 }
@@ -1078,15 +1064,12 @@ clear: both;
 .posts a{
 transition: all 250ms ease;
 text-decoration: none;
-border: 0;
 font: inherit;
 }
 
 h3 a{
 color: rgba(20, 20, 35, .5);
-border-bottom: 1px solid rgba(20, 20, 35, .3);
 padding: 0 0 3px 0;
-margin: 0 10px 0 0;
 }
 .hover-black:hover{
 color: black;
@@ -1096,7 +1079,6 @@ color: black;
 color: rgba(252, 67, 73, 1);
 margin: 0;
 padding:0 ;
-border: 0;
 font: inherit;
 }
 
@@ -1147,12 +1129,15 @@ color: rgba(20, 20, 35, .35);
 border-bottom: 1px solid rgba(20, 20, 35, .1);
 padding: 0 0 3px 0;
 }
-
+.hover-red{
+  transition: all 250ms ease;
+  border-bottom: 1px solid rgba(252,67,73,.25);
+}
 /*分隔线*/
 
 .part-b{
   width: 950px;
-  height: 28000px;
+  height: 27890px;
   margin:0;
   /* position: relative;
   top: 100px; */
@@ -1218,7 +1203,7 @@ padding: 0 0 3px 0;
 	font: inherit;
 }
 
-.post_details .post_h5{
+.post_h5{
   width:auto;
   border-top: none;
   margin: 12px 0 25px;
@@ -1240,10 +1225,19 @@ padding: 0 0 3px 0;
   color: rgba(20,20,35,1);
 }
 
-.date h3{
+.date a{
+  font-family: "Clear Sans";
   font-size: 10px;
   line-height: 1em;
   font-weight: 700;
+  border-bottom: 1px solid rgba(20, 20, 35, .35);
+}
+.author a{
+  font-family: "Clear Sans";
+  font-size: 10px;
+  line-height: 1em;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(20, 20, 35, .35);
 }
 
 .author{
@@ -1305,7 +1299,11 @@ padding: 0 0 3px 0;
   position: relative;
 }
 
-.part-b h5{
+/* .part-b h5{
+  
+} */
+
+.share_story{
   padding: 0 0 6px;
   color: rgba(20,20,35,.35);
   border-bottom: 1px solid rgba(20,20,35,.15);
@@ -1317,10 +1315,6 @@ padding: 0 0 3px 0;
   font-style: normal;
   font-weight: 300;
   margin: 0;
-}
-
-.share_story{
-  border-bottom: 1px solid rgba(20,20,35,.15);
 }
 
 .share{
@@ -1424,7 +1418,346 @@ padding: 0 0 3px 0;
 }
 
 
+/* 以下为ljx的 */
+.bf-foot{
+  width: 1320px;
+  height: 930px;
+  margin: 0px auto;
+}
+.page-foot{
+  width: 100%;
+  background-color: rgba(252,67,73,1);
+  color: white;
+  text-align: center;
+  font-size: 1.35em;
+  line-height: 1.25em;
+  font-weight: 800;
+  height: 47px;
+  margin: 100px 0 0 0;
+}
+.page-f{
+  padding: 10px;
+  float: right;
+  border-right: 1px solid rgba(20,20,35,.15);
+  height: 27px;
+  transition: all 250ms ease;
+}
+.page-f:hover{
+  background-color: black;
+}
+.page-f a{
+  color: white;
 
+}
+.page-f1{
+  padding: 10px;
+  font-family: "Rignside Regular A","Rignside Regular B", sans-serif, Arial;
+  float: left;
+}
+.page-f2{
+  background-color: black;
+  float: right;
+  padding: 10px;
+  border-right: 1px solid rgba(20,20,35,.15);
+  width: 9.137px;
+  height: 27px;
+}
+.page-f2 a{
+  color: white;
+}
+.page-f3{
+  width: 14.088px;
+}
+.page-f4{
+  width: 14.463px;
+}
+.page-f5{
+  width: 14.950px;
+}
+.page-f6{
+  width: 16.525px;
+}
+.page-f7{
+  width: 89.175px;
+  font-family: "Rignside Regular A","Rignside Regular B", sans-serif, Arial;
+  
+}
+.page-f8{
+  width: 23.587px;
+}
+/* .pagination{
+  font-family: "Rignside Regular A","Rignside Regular B", sans-serif, Arial;
+  font-style: normal;
+  font-weight: 300;
+  width: 962px;
+  margin: 100px 0 0 0;
+} */
+
+/* .pagination a{
+  text-decoration: none;
+  color: white;
+  font-family: "Rignside Regular A","Rignside Regular B", sans-serif, Arial;
+}
+
+.wp-pagenavi{
+  font-size: 1em;
+  width: 100%;
+  background-color: rgba(252,67,73,1);
+  clear: both;
+
+  font-size: 1.35em;
+  line-height: 1.25em;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: 642px 30px 33px 33px 34px 35px 110px 45px;
+  grid-template-rows: 46px;
+  grid-gap: 0;
+  text-align: center;
+}
+.wp-pagenavi div{
+  display: grid;
+} */
+
+/*页面切换的表格布局*/
+/* .grid-1{
+  grid-row: 1;
+  grid-column: 1;
+  border-right: 1px solid rgba(20,20,35,.15);
+}
+.grid-1 span{
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+
+}
+.grid-2{
+  grid-row: 1;
+  grid-column: 2;
+  border-right: 1px solid rgba(20,20,35,.15);
+  background-color: black;
+}
+
+.grid-3{
+  grid-row: 1;
+  grid-column: 3;
+  border-right: 1px solid rgba(20,20,35,.15);
+  padding-top: 8px;
+}
+
+.grid-4{
+  grid-row: 1;
+  grid-column: 4;
+  border-right: 1px solid rgba(20,20,35,.15);
+  padding-top: 8px;
+}
+
+.grid-5{
+  grid-row: 1;
+  grid-column: 5;
+  border-right: 1px solid rgba(20,20,35,.15);
+  padding-top: 8px;
+}
+
+.grid-6{
+  grid-row: 1;
+  grid-column: 6;
+  color: white;
+}
+
+.cjcnb{
+  color: white;
+  float: left;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.grid-7{
+  grid-row: 1;
+  grid-column: 7;
+  border-right: 1px solid rgba(20,20,35,.15);
+  border-left: 1px solid rgba(20,20,35,.15);
+  padding-left: 8.5px;
+}
+
+.grid-8{
+  grid-row: 1;
+  grid-column: 8;
+  border-right: 1px solid rgba(20,20,35,.15);
+}
+
+.gird-hover:hover{
+  background-color: black;
+  transition: all 0.2s linear;
+} */
+
+.pages{
+  color: white;
+}
+
+.page1{
+  color: white;
+}
+
+.nectar_after_content{
+  height: 90px;
+  border-top: 1px solid rgba(20, 20, 35, .15);
+  margin-top: 50px;
+  width: 1324px;
+}
+
+.big-box{
+  width: 1350px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  margin-left: 115px;
+  
+}
+
+.trending{
+  display: grid;
+  grid-template-columns: 286px 286px 286px 286px;
+  grid-template-rows: 202px 202px 202px; 
+  border-top: 1px solid rgba(252,67,73,.15);
+  border-bottom: 1px solid rgba(252,67,73,.15);
+  grid-gap: 60px;
+  padding: 26px 0 26px 0;
+  width: 1324px;
+  place-items: center;
+  position: relative;
+} 
+
+.trending::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px; /* 设置线条高度 */
+  top: 255px;
+  background-color: rgba(252,67,73,.15); /* 设置伪元素的背景颜色 */
+}
+
+.trending::after{
+  content: '';
+  position: absolute;
+  width: 1px; /* 设置线条宽度 */
+  height: 100%;
+  top: 0px; /* 将伪元素位置设置为网格项的边缘，并使其跨越 grid-gap 的高度 */
+  left: 315px;
+  background-color: rgba(252,67,73,.15); /* 设置伪元素的背景颜色 */
+}
+
+.box1 h1{
+  color: rgba(255,255,255,1);
+  padding: 20px 7.017543859649%;
+  margin: 0px;
+  font-size: 2.25em;
+  line-height: 1.125em;
+  font-weight: 800;
+  font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+
+}
+
+.wenzi{
+  position: relative;
+  top: -15px;
+  left: -5px;
+  text-align: left;
+}
+
+.box1{
+  float: left;
+  width: 280px;
+  height: 200px;
+  background-color: rgba(252,67,73,1);
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.box2{
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.box-img{
+  width: 286px;
+  height: 202px; 
+}
+
+.box3{
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.box4{
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.box5{
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.box5::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px; /* 设置线条高度 */
+  top: 516px;
+  background-color: rgba(252,67,73,.15); /* 设置伪元素的背景颜色 */
+}
+
+.box5::after{
+  content: '';
+  position: absolute;
+  width: 1px; /* 设置线条宽度 */
+  height: 100%;
+  top: 0px; /* 将伪元素位置设置为网格项的边缘，并使其跨越 grid-gap 的高度 */
+  left: 663px;
+  background-color: rgba(252,67,73,.15); /* 设置伪元素的背景颜色 */
+}
+
+.box6{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.box7{
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.box8{
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.box9{
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.box9::after{
+  content: '';
+  position: absolute;
+  width: 1px; /* 设置线条宽度 */
+  height: 100%;
+  top: 0px; /* 将伪元素位置设置为网格项的边缘，并使其跨越 grid-gap 的高度 */
+  left: 1009px;
+  background-color: rgba(252,67,73,.15); /* 设置伪元素的背景颜色 */
+}
+
+.box10{
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.box11{
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.box12{
+  grid-row: 3;
+  grid-column: 4;
+}
 
 
 
@@ -1843,6 +2176,10 @@ padding: 0 0 3px 0;
 }
 .hover-red:hover{
   color: rgba(252,67,73,1);
+  border-bottom: 1px solid rgba(20, 20, 35, .15);
+}
+.part-a .hover-red:hover{
+  color: black;
 }
 .hover-black:hover{
   color: black;
