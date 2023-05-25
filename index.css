@@ -844,8 +844,8 @@ a{
 .part-a{
   width: 950px;
   /* margin: 0 0 0 125px; */
-  position: relative;
-  top: 100px;
+  /* position: relative;
+  top: 100px; */
   overflow: hidden;
 }
 
@@ -946,8 +946,8 @@ border: 0;
 font: inherit;
 }
 
-p{
-font-size: 1em;
+.part-a p{
+font-size: 1.2em;
 line-height: 1.5em;
 margin: 0 0 1em 0;
 font-family: "Sentinel A","Sentinel B","Serif",Georgia;
@@ -955,14 +955,31 @@ font-style: normal;
 font-weight: 400;
 padding: 0;
 /* border:0; */
+position: relative;
 }
 
 .span-color{
   color: #202035;
 }
 
-.blockquote-kuang{
-  margin-left: 1px rgba(252, 67, 73, 1) solid;
+.blockquote-border-a p::before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 82px;
+  background-color: rgba(20,20,20,.35);
+  position: absolute;
+  left: -37px;
+}
+
+.blockquote-border-b ::before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 140px;
+  background-color: rgba(20,20,20,.35);
+  position: absolute;
+  left: -37px;
 }
 
 .a{
@@ -970,7 +987,7 @@ width: 970px;
 }
 
 .wp-caption-text{
-margin:   0 -10px 15px;
+margin:   0 0 15px;
 font-size: .85em;
 font-weight: 400;
 color:rgba(20, 20, 35, .5);
@@ -982,7 +999,7 @@ font-style: normal;
 border: 0;
 }
 
-.share_story{
+.part-b share_story{
 padding:  0  0 6px;
 color: rgba(20, 20, 35, .35);
 border-bottom: 1px solid rgba(20, 20, 35, .15);
@@ -1137,8 +1154,8 @@ padding: 0 0 3px 0;
   width: 950px;
   height: 28000px;
   margin:0;
-  position: relative;
-  top: 100px;
+  /* position: relative;
+  top: 100px; */
   overflow: hidden;
 }
 
@@ -1159,8 +1176,9 @@ padding: 0 0 3px 0;
   border: 0;
 }
 .hover-pink{
-  color: rgb(44, 76, 241);
+  color: blue;
   transition: all 250ms ease;
+  font: inherit;
 }
 .hover-pink:hover{
   color: rgb(255, 29, 255);
@@ -1277,13 +1295,14 @@ padding: 0 0 3px 0;
 
 .part-b p{
   font-size: 1.2em;
-  line-height: 2em;
+  line-height: 1.5em;
   margin: 0 0 1em 0;
   font-family: "Sentinel A", "Sentinel B", Serif, Georgia;
   font-style: normal;
   font-weight: 400;
   padding: 0;
   border: 0;
+  position: relative;
 }
 
 .part-b h5{
@@ -1370,7 +1389,6 @@ padding: 0 0 3px 0;
 
 .part-b blockquote{
   quotes: none;
-  border-left: 1px solid rgba(20,20,35,.15);
 }
 
 .part-b blockquote p{
