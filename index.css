@@ -865,9 +865,10 @@ font-style:                     normal;
 margin:                         20px 0 0 0;
 display:                        inline-block; 
 color:                          rgba(20,20,35,1);  
-border-bottom: 1px solid rgba(20, 20, 35, .3);
 }
-
+.category .hover-black{
+  border-bottom: 1px solid rgba(20, 20, 35, .3);
+}
 
 .clear{
 clear:                          both;
@@ -1071,9 +1072,10 @@ h3 a{
 color: rgba(20, 20, 35, .5);
 padding: 0 0 3px 0;
 }
-.hover-black:hover{
-color: black;
+.hover-black{
+  border-bottom: 1px solid rgba(252,67,73,.25);
 }
+
 
 .hover-red{
 color: rgba(252, 67, 73, 1);
@@ -1158,7 +1160,6 @@ padding: 0 0 3px 0;
 .part-b a{
   transition: all 250ms ease;
   text-decoration: none;
-  border: 0;
 }
 .hover-pink{
   color: blue;
@@ -1181,6 +1182,8 @@ padding: 0 0 3px 0;
 	float:none;
 	display:block;
   color:#898991;
+  text-decoration: none;
+  /* border-bottom: 1px solid rgba(20, 20, 35, .3); */
 }
 
 .subtitle a{
@@ -1222,7 +1225,7 @@ padding: 0 0 3px 0;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: .1em;
-  color: rgba(20,20,35,1);
+  color: rgba(20,20,35,0.5);
 }
 
 .date a{
@@ -1230,14 +1233,14 @@ padding: 0 0 3px 0;
   font-size: 10px;
   line-height: 1em;
   font-weight: 700;
-  border-bottom: 1px solid rgba(20, 20, 35, .35);
+  border-bottom: 1px solid rgba(20, 20, 35, .15);
 }
 .author a{
   font-family: "Clear Sans";
   font-size: 10px;
   line-height: 1em;
   font-weight: 700;
-  border-bottom: 1px solid rgba(20, 20, 35, .35);
+  border-bottom: 1px solid rgba(20, 20, 35, .15);
 }
 
 .author{
@@ -1257,7 +1260,14 @@ padding: 0 0 3px 0;
   margin-inline-end: 0px;
   color: rgba(20,20,35,.5);
 }
-
+.date:hover a{
+  color: rgba(20, 20, 35, 1);
+  border-bottom: 1px solid rgba(20, 20, 35, 0.35);
+}
+.author:hover a{
+  color: rgba(20, 20, 35, 1);
+  border-bottom: 1px solid rgba(20, 20, 35, 0.35);
+}
 .clear{
   clear: both;
   margin: 0;
@@ -1295,7 +1305,6 @@ padding: 0 0 3px 0;
   font-style: normal;
   font-weight: 400;
   padding: 0;
-  border: 0;
   position: relative;
 }
 
@@ -1407,7 +1416,6 @@ padding: 0 0 3px 0;
 
 .part-b p a{
   color: rgba(252,67,73,1);
-  border-bottom: 1px solid rgba(252,67,73,.25);
   padding: 0 0 3px 0;
   transition: all 250ms ease;
   text-decoration: none;
@@ -2176,13 +2184,14 @@ padding: 0 0 3px 0;
 }
 .hover-red:hover{
   color: rgba(252,67,73,1);
-  border-bottom: 1px solid rgba(20, 20, 35, .15);
 }
 .part-a .hover-red:hover{
   color: black;
+  border-bottom: 1px solid rgba(20, 20, 35, .15);
 }
 .hover-black:hover{
   color: black;
+  border-bottom: 1px solid rgba(20, 20, 35, .15);
 }
 .side-sign:hover{
   background-color: rgba(252,67,73,1);
