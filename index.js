@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // const yorn = true
   const observer = new IntersectionObserver(entries => {
     const targetVisible = entries[0].isIntersecting;
     const dhAll = document.getElementById('dh-all');
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     } else {
       dhAll.style.top = '-74px';
-      yorn=true
     }
   }, {
     root: null,

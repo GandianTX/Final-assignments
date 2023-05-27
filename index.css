@@ -2061,8 +2061,13 @@ padding: 0 0 3px 0;
 
 
 
-
-
+/* 以下为特殊调整 */
+.part-a .posts .hover-black{
+  border: 0;
+}
+.side-2 .hover-red{
+  border: 0;
+}
 
 
 
