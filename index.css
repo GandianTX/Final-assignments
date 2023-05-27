@@ -547,6 +547,10 @@ a{
   top: 0px;
   z-index: 1000;
   border-bottom: 1px solid rgba(20,20,35,0.5);
+  transition: all 250ms ease;
+}
+#dh-all{
+  top: -74px;
 }
 .search-h2{
   width: 300px;
@@ -2213,4 +2217,7 @@ padding: 0 0 3px 0;
 }
 .cover-s:hover{
   display: block;
+}
+.kong:hover{
+  color: rgba(252,67,73,1);
 }
