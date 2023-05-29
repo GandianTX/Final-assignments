@@ -704,11 +704,14 @@ a{
   width: 1320px;
   margin: 0 auto 0 auto;
   /* background-color: blue; */
+  position: relative;
 }
 .side{
   float: right;
   width: 300px;
   margin: 0 0 0 4.545454545455%;
+  position: absolute;
+  left: 960px;
 }
 .side-1{
   width: 300px;
@@ -1613,19 +1616,19 @@ padding: 0 0 3px 0;
   width: 1324px;
 }
 
-.big-box{
+/* .big-box{
   width: 1350px;
   margin: 0px auto 0px auto;
   text-align: center;
   margin-left: 115px;
   
-}
+} */
 
 .trending{
   display: grid;
   grid-template-columns: 286px 286px 286px 286px;
   grid-template-rows: 202px 202px 202px; 
-  border-top: 1px solid rgba(252,67,73,.15);
+  border-top: 1px solid rgba(252,67,73,.5);
   border-bottom: 1px solid rgba(252,67,73,.15);
   grid-gap: 60px;
   padding: 26px 0 26px 0;
@@ -1671,6 +1674,75 @@ padding: 0 0 3px 0;
   text-align: left;
 }
 
+.box-img{
+  width: 286px;
+  height: 202px; 
+}
+
+.big-img{
+  width: 286px;
+  height: 202px; 
+  overflow: hidden;
+  background-size: cover;
+}
+
+.img-1{
+  background-image: url(img/10006.jpg);
+  background-position: 50% 50%;
+}
+
+.img-2{
+  background-image: url(img/10076.jpg);
+  background-position: 50% 50%;
+}
+
+.img-3{
+  background-image: url(img/10036.jpg);
+  background-position: 50% 50%;
+}
+
+.img-4{
+  background-image: url(img/10077.jpg);
+  background-position: 50% 50%;
+}
+
+.img-5{
+  background-image: url(img/10038.jpg);
+  background-position: 50% 50%;
+}
+
+.img-6{
+  background-image: url(img/10078.jpg);
+  background-position: 50% 50%;
+}
+
+.img-7{
+  background-image: url(img/10075.jpg);
+  background-position: 50% 50%;
+}
+
+.img-8{
+  background-image: url(img/10069.jpg);
+  background-position: 50% 50%;
+}
+
+.img-9{
+  background-image: url(img/10081.jpg);
+  background-position: 50% 50%;
+}
+
+.img-10{
+  background-image: url(img/10032.jpg);
+  background-position: 50% 50%;
+}
+
+.img-11{
+  background-image: url(img/10041.jpg);
+  background-position: 50% 50%;
+}
+
+/*test*/
+
 .box1{
   float: left;
   width: 280px;
@@ -1683,11 +1755,6 @@ padding: 0 0 3px 0;
 .box2{
   grid-row: 1;
   grid-column: 2;
-}
-
-.box-img{
-  width: 286px;
-  height: 202px; 
 }
 
 .box3{
