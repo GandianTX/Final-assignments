@@ -848,7 +848,7 @@ a{
   /* margin: 0 0 0 125px; */
   /* position: relative;
   top: 100px; */
-  overflow: hidden;
+  margin: 0 0 0 -5px;
 }
 
 .posts{
@@ -1144,10 +1144,7 @@ padding: 0 0 3px 0;
 .part-b{
   width: 950px;
   height: 27890px;
-  margin:0;
-  /* position: relative;
-  top: 100px; */
-  overflow: hidden;
+  margin:0 0 0 -5px;
 }
 
 .youhua-1 .guiyi-2 .heian-3{
@@ -1437,7 +1434,7 @@ padding: 0 0 3px 0;
   margin: 0px auto;
 }
 .page-foot{
-  width: 100%;
+  width: 970px;
   background-color: rgba(252,67,73,1);
   color: white;
   text-align: center;
@@ -1459,6 +1456,7 @@ padding: 0 0 3px 0;
 }
 .page-f a{
   color: white;
+  letter-spacing: .1em;
 
 }
 .page-f1{
