@@ -536,14 +536,20 @@ a{
 
 
 /* 以下为导航栏部分 */
+.daohang-all{
+  position: relative;
+  right: 20px;
+}
 .daohang{
   position: fixed;
   background-color: white;
-  margin: 0px auto;
   /* width: 91.6666666666667%; */
   width: 1320px;
-  max-width: 1320px;
+  /* max-width: 1320px; */
   height: 74px;
+  margin: 0px auto;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
   top: 0px;
   z-index: 1000;
   border-bottom: 1px solid rgba(20,20,35,0.5);
