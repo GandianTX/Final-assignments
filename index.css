@@ -1684,6 +1684,7 @@ padding: 0 0 3px 0;
   height: 202px; 
   overflow: hidden;
   background-size: cover;
+  position: relative;
 }
 
 .img-1{
@@ -2123,7 +2124,15 @@ padding: 0 0 3px 0;
   padding: 0px 0px 3px 0px;
   transition: all 250ms ease;
 }
-
+.cover-x{
+  width: 286px;
+  height: 202px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255,0.3);
+  display: none;
+}
 
 
 /* 以下为特殊调整 */
@@ -2290,4 +2299,10 @@ padding: 0 0 3px 0;
 }
 .kong:hover{
   color: rgba(252,67,73,1);
+}
+.big-img:hover .cover-x{
+  display: block;
+}
+.cover-x:hover{
+  display: block;
 }
